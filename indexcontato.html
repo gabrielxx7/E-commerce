@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Ecommerce</title>
+    <link rel="stylesheet" href="stylescontact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="indexsobre.html">Sobre</a></li>
+                <li><a href="indexcontato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h1>Fale Conosco</h1>
+            <p>Preencha o formulário abaixo para entrar em contato:</p>
+            <form id="contact-form">
+                <label for="name">Nome:</label> 
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required> 
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <div class="contact-info">
+                <h2>Informações de Contato</h2>
+                <p><strong>Endereço:</strong> R. Caribe, nº 7752, Recife/PE</p>
+                <p><strong>Telefone:</strong> (81) 1234-5678</p>
+                <p><strong>E-mail:</strong> teste@gmail.com</p>
+                <p><strong>Atendimento:</strong> Seg a Sex, 9h às 18h</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ecommerce v1. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scriptcontato.js"></script>
+</body>
+</html>
